@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+h2{
+    color: #070707;
+}
+
+.h2{
+    color: #070707;
+    font-size: 32px;
+}
+.text{
+    color: #070707;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+}
+body {
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #0e76d8;
+    color: #000000;
+    padding: 1rem 0;
+}
+
+header h1 {
+    float: left;
+    color: #fff;
+    font-size: 60px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #070707;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+#home {
+    background: url('home-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.property-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.property {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px #babecc,
+                -10px -10px 20px #ffff;
+    transition: all 0.3s ease-in-out;            
+}
+.property:hover{
+    transform: translateY(-22px);
+}
+.property-container:hover > :not(:hover){
+    opacity: 0.5;
+}
+.property img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#about, #contact {
+    background: #4298e9;
+    padding: 2rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form button {
+    background: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
